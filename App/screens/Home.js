@@ -45,7 +45,9 @@ export default () => {
             <ConversionInput
                 text="GBP"
                 value="123"
-                onButtonPress={() => alert('todo!')} />
+                onButtonPress={() => alert('todo!')}
+                editable={false}
+                />
         </View>
     );
 };
